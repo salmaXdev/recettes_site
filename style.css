@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+header {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 20px;
+}
+
+.recettes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    background: #ff6b6b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card:hover {
+    transform: scale(1.05); 
+    transition: 0.3s; 
+}
+
+.card a:hover {
+    background: #e55a5a; 
+}
